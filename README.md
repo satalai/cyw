@@ -15,20 +15,7 @@
 3. 动态标题交互
 鼠标悬浮在页面标题上时，触发特效（添加 CSS 类），持续约 6 秒后恢复默认状态。
 目录结构
-bash
-复制代码
-项目根目录/
-│
-├── index.html         # 主 HTML 文件
-├── style.css          # 自定义 CSS 文件
-├── 1blue.png          # 蓝发角色图片
-├── 2red.png           # 红发角色图片
-├── 3pink.png          # 粉发角色图片
-├── 4yellow.png        # 金发角色图片
-├── wallhaven-jxeelw_2560x1920.png  # 滚动视差背景图片 1
-├── wallhaven-o559j7_2560x1920.png  # 滚动视差背景图片 2
-├── wallhaven-1pvr23.png            # 滚动视差背景图片 3
-└── wallhaven-3l69q3.jpg            # 滚动视差背景图片 4
+
 使用说明
 1. 克隆项目
 bash
