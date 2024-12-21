@@ -20,7 +20,7 @@
 1. 克隆项目
 bash
 复制代码
-git clone https://github.com/<你的用户名>/<仓库名>.git
+git clone https://github.com/satalai/cyw.git
 2. 打开网页
 直接使用浏览器打开 index.html 文件即可预览项目效果。
 
@@ -74,6 +74,6 @@ title.addEventListener('mouseover', () => {
 
 作者
 开发者: satalai
-联系: your_email@example.com
+联系: bob355429gmail.com
 GitHub: satalai
 欢迎提交问题和建议！ 😊
