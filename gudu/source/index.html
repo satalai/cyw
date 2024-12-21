@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动漫人物展示</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="title">
+        <h1 id="title"><span>bo</span>c<span>chi rock</span></h1>
+    </div>
+
+    <div class="accordion">
+        <div class="accordion-item" style="background-color: #00ffff;">
+            <img src="./1blue.png" alt="蓝发角色">
+            <div class="character-name">DARKO YAMADA RYO</div>
+            <div class="accordion-content">
+                <div class="japanese-text">ぼっち、ざろっく！</div>
+                <p id="liang">山田凉(山田 リョウ)</p>
+            </div>
+        </div>
+        <div class="accordion-item" style="background-color: #ff0000;">
+            <img src="./2red.png" alt="红发角色">
+            <div class="character-name">DAIKUYO KITA IKA</div>
+            <div class="accordion-content">
+                <div class="japanese-text">ぼっち、ざろっく！</div>
+                <p id="xiduo">喜多郁代</p>
+            </div>
+        </div>
+        <div class="accordion-item" style="background-color: #ff00ff;">
+            <img src="./3pink.png" alt="粉发角色">
+            <div class="character-name">NIHORE GOTO EME</div>
+            <div class="accordion-content">
+                <div class="japanese-text">ぼっち、ざろっく！</div>
+                <p id="houteng">后藤一里（後藤 ひとり)</p>
+            </div>
+        </div>
+        <div class="accordion-item" style="background-color: #ffff00;">
+            <img src="./4yellow.png" alt="金发角色">
+            <div class="character-name">HIDOI GOTO EME</div>
+            <div class="accordion-content">
+                <div class="japanese-text">ぼっち、ざろっく！</div>
+                <p id="my-love">伊地知 虹夏（いじち にじか）</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 添加滚动视差页面 -->
+    <div class="parallax" style="background: url('./wallhaven-jxeelw_2560x1920.png') no-repeat center center fixed; background-size: cover;">
+        <div class="content">『ギターと孤独と蒼い惑星』(吉他与孤独与蓝色星球)</div>
+    </div>
+    <div class="parallax" style="background: url('./wallhaven-o559j7_2560x1920.png') no-repeat center center fixed; background-size: cover;">
+        <div class="content">『那个乐队』(あのバンド)</div>
+    </div>
+    <div class="parallax" style="background: url('./wallhaven-1pvr23.png') no-repeat center center fixed; background-size: cover;">
+        <div class="content">『才不会忘掉』(忘れてやらない)</div>
+    </div>
+    <div class="parallax" style="background: url('./wallhaven-3l69q3.jpg') no-repeat center center fixed; background-size: cover;">
+        <div class="content">『若能化为星座』(星座になれたら)</div>
+    </div>
+    
+
+    <script>
+        const title = document.getElementById('title');
+        let hovered = false;
+
+        title.addEventListener('mouseover', () => {
+            if (!hovered) {
+                hovered = true;
+                title.classList.add('hovered');
+            }
+            setTimeout(() => {
+                hovered = false;
+                title.classList.remove('hovered');
+            }, 6000);
+        });
+
+        title.addEventListener('mouseout', () => {
+            
+        });
+    </script>
+</body>
+</html>
